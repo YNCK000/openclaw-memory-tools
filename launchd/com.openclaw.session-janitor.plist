@@ -8,7 +8,7 @@
   <key>ProgramArguments</key>
   <array>
     <string>/bin/bash</string>
-    <string>/Users/boris/.openclaw/workspace/tools/session-janitor/session-janitor.sh</string>
+    <string>/Users/YOUR_USERNAME/.openclaw/workspace/tools/session-janitor/session-janitor.sh</string>
   </array>
 
   <key>StartCalendarInterval</key>
@@ -24,17 +24,17 @@
     <key>PATH</key>
     <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
     <key>HOME</key>
-    <string>/Users/boris</string>
+    <string>/Users/YOUR_USERNAME</string>
   </dict>
 
   <key>Nice</key>
   <integer>10</integer>
 
   <key>StandardOutPath</key>
-  <string>/Users/boris/.openclaw/workspace/tools/session-janitor/logs/launchd-stdout.log</string>
+  <string>/Users/YOUR_USERNAME/.openclaw/workspace/tools/session-janitor/logs/launchd-stdout.log</string>
 
   <key>StandardErrorPath</key>
-  <string>/Users/boris/.openclaw/workspace/tools/session-janitor/logs/launchd-stderr.log</string>
+  <string>/Users/YOUR_USERNAME/.openclaw/workspace/tools/session-janitor/logs/launchd-stderr.log</string>
 
   <key>RunAtLoad</key>
   <false/>
