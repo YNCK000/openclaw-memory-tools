@@ -1,0 +1,15 @@
+{
+  "name": "session-janitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Automated session archiver for OpenClaw — summarizes, embeds, and prunes old sessions",
+  "scripts": {
+    "summarize": "node summarize-session.mjs",
+    "embed": "node embed-and-store.mjs",
+    "janitor": "bash session-janitor.sh"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0"
+  }
+}

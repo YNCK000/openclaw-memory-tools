@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+
+  "injection": {
+    "hourlyWindowHours": 24,
+    "maxInjectionChars": 12000,
+    "freshSessionThreshold": 10
+  },
+
+  "paths": {
+    "sessions": "~/.openclaw/agents/main/sessions",
+    "memory": "~/.openclaw/workspace/memory",
+    "workspace": "~/.openclaw/workspace",
+    "state": "~/.openclaw/workspace/tools/context-bridge/state.json"
+  }
+}

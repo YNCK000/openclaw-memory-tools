@@ -1,0 +1,24 @@
+{
+  "sessionsDir": "~/.openclaw/agents/main/sessions",
+  "archiveDir": "~/.openclaw/agents/main/sessions/archive",
+  "memoryDb": "~/.openclaw/memory/main.sqlite",
+  "logsDir": "~/.openclaw/workspace/tools/session-janitor/logs",
+  "stateFile": "~/.openclaw/workspace/tools/session-janitor/state.json",
+  "minAgeHours": 24,
+  "archiveRetentionDays": 30,
+  "summarization": {
+    "model": "qwen3:32b",
+    "fallbackModel": "llama3.2:3b",
+    "ollamaUrl": "http://localhost:11434",
+    "temperature": 0.3,
+    "maxMessageChars": 2000,
+    "chunkSize": 50
+  },
+  "embedding": {
+    "model": "nomic-embed-text",
+    "dimensions": 768,
+    "ollamaUrl": "http://localhost:11434",
+    "chunkMaxTokens": 400,
+    "chunkOverlap": 80
+  }
+}
